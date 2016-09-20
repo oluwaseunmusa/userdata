@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+
+<p>Welcome enter your name below</p>
+
+<input type="text" id="txt"><br />
+
+  <input type="button" onclick="myFunction();" value="click me">
+    <script>
+  function myFunction(){
+
+  var NamesValue;
+
+ NamesValue = document.getElementById('txt').value;
+
+
+  if ((txt).value.length >=9){
+
+    alert(NamesValue + " " + " you have long name");
+
+  }
+
+  else {
+
+    alert ( NamesValue + " " + "you have short name");
+
+  }
+
+}
+
+    
+  </script>
+</body>
+</html>
