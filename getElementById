@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 
+<style>
+.deco_rate{
+
+   text-shadow: 2px 1px 2px powderblue;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   text-decoration: line-through;
+   }
+  </style>
 <html>
 <body>
 
